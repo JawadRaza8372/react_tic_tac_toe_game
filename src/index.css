@@ -12,34 +12,6 @@ code {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-h2 {
-  font-size: 6rem;
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-  font-weight: bold;
-  padding: 3rem;
-}
-.coming-soon {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.countdown {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-.imgs {
-  height: 50vh;
-}
-.day,
-.hour,
-.mints,
-.second {
-  font-size: 3.5rem;
-}
 
 /* for game */
 
