@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+h2 {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 3rem;
+}
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.imgs {
+  height: 50vh;
+}
+.day,
+.hour,
+.mints,
+.second {
+  font-size: 3.5rem;
+}
+
+/* for game */
+
+.app-header {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #7ba7ff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header2 {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  background-color: #7ba7ff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.heading-text {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+.first_row {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: 2px solid black;
+  border-bottom: none;
+}
+.second_row {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.third_row {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
